@@ -1,0 +1,21 @@
+<div class="jumbotron">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="card p-5">
+            <form>
+                <div class="form-row">
+                    <div class="form-group ">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" [(ngModel)]="form.email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group ">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" [(ngModel)]="form.password">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary" (click)="loginUser()">Sign in</button>
+            </form>
+        </div>
+    </div>
+</div>
